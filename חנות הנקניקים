@@ -23,18 +23,10 @@
             height: 500px;
             border: none;
         }
-        .sausage-gallery {
-            display: flex;
-            justify-content: center;
-            gap: 15px;
-            flex-wrap: wrap;
+        .footer {
             margin-top: 20px;
-        }
-        .sausage-gallery img {
-            width: 120px;
-            height: 120px;
-            border-radius: 10px;
-            box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+            font-size: 14px;
+            color: #555;
         }
     </style>
 </head>
@@ -42,12 +34,7 @@
     <div class="container">
         <h1>דשבורד חנות הנקניקים</h1>
         <iframe class="iframe-container" src="https://public.tableau.com/views/_17435336165270/Dashboard1?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link"></iframe>
-        <div class="sausage-gallery">
-            <img src="salami.png" alt="Salami">
-            <img src="chorizo.png" alt="Chorizo">
-            <img src="pepperoni.png" alt="Pepperoni">
-            <img src="mortadella.png" alt="Mortadella">
-        </div>
+        <p class="footer">© 2025 חנות הנקניקים - כל הזכויות שמורות</p>
     </div>
 </body>
 </html>
